@@ -1,0 +1,39 @@
+/* pages/statistics/statistics.wxss */
+
+.timeIndicator{
+  display: flex;
+  align-items: center;
+  margin-bottom: 60rpx;
+}
+
+.timeIndicator .dateStr {
+  font-size: 30px;
+}
+
+.cicle{
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+}
+.circle_info {
+  position: relative; 
+  display: flex;  
+  align-items: center;
+  justify-content: center
+}
+
+.circle_info .dakaDay{
+  position: relative;
+  display: flex;
+  margin-right: 10rpx;
+  font-size: 40px;
+  color: #60e960;
+}
+
+.circle_info .totalDay{
+  position: relative;
+  display: flex;
+  margin-left: 10rpx;
+  font-size: 20px;
+  color: #e67b3d;
+}

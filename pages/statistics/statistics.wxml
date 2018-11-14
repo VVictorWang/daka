@@ -1,0 +1,13 @@
+<view class="container">
+  <view class='timeIndicator'>
+    <text class='dateStr'>{{dateStr}}</text>
+  </view>
+  <circlebar class="cicle" progress="{{progress}}" radius="150" animated="true" lineWidth="20" tintColor="#54afec">
+    <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->
+    <view class="circle_info">
+      <text class='dakaDay'>{{dakaDay}}</text>
+      <text class='modify'>/</text>
+      <text class='totalDay'>{{totalDay}}</text>
+    </view>
+  </circlebar>
+</view>

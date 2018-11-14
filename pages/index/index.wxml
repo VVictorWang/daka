@@ -1,0 +1,17 @@
+<!-- index.wxml -->
+<view class="container">
+    <view class="calendar-box">
+        <view class="left">
+            <view class="today">
+                <text>{{day}}</text>
+                <text class="monthStr">{{str}}</text>
+            </view>
+        </view>
+        <view class="right">
+            <calendar header="{{true}}" cell-size="40" days-color="{{calendar_days_style}}" active-type="rounded" lunar="true" bindnextMonth="nextMonth" bindprevMonth="nextMonth" binddayClick="onDayClick" />
+        </view>
+    </view>
+    <view class='daka'>
+        <button bindtap="onDakaClicked">打卡</button>
+    </view>
+</view>
