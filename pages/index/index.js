@@ -52,7 +52,7 @@ Page({
           }
         }
         var currentDate = new Date();
-        if(selectedDate.getDate() > currentDate.getDate() || selectedDate.getMonth() > currentDate.getMonth() || selectedDate.getFullYear() > currentDate.getFullYear()){
+        if(selectedDate.getDate() > currentDate.getDate() || selectedDate.getMonth() > currentDate.getMonth() + 1 || selectedDate.getFullYear() > currentDate.getFullYear()){
           wx.showToast({
             title: '打卡时间不能大于当前时间哦',
             icon: 'none',
